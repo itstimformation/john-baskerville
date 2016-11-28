@@ -12,3 +12,6 @@ Week 07 - 07 November 2016
 Week 08 - 14 November 2016
 + [Version 4](http://timtim-101.github.io/john-baskerville/John Baskerville4.html)
 + [Version 5](http://timtim-101.github.io/john-baskerville/John Baskerville5.html)
+
+Week 10 - 28 November 2016
++ [Version 6](http://timtim-101.github.io/john-baskerville/John Baskerville6.html)
