@@ -83,6 +83,8 @@ blockquote p{
   font-size: .75em;
   text-align: center;
   margin: auto;
+  display: block;
+  font-size: .7em;
 }
 
 .leader{
@@ -155,6 +157,7 @@ table{
 caption{
   margin-bottom: .7em;
   text-transform: uppercase;
+  font-size: 150%;
 }
 
 table.head, th{
@@ -180,7 +183,7 @@ table, td{
 
 @media (max-width: 50em) {
   body {
-    background-color: bisque;
+    /*background-color: bisque;*/
     width: 85%;
   }
 
@@ -200,7 +203,7 @@ table, td{
 
 @media (max-width: 35em) {
   body {
-    background-color: aqua;
+    /*background-color: aqua;*/
     margin: auto;
     width: 90%;
     font-size: 115%;
@@ -243,11 +246,15 @@ table, td{
     font-size: 60%;
   }
 
-  .contact {
+  .contact a {
     font-size: 90%;
+    display: block;
+    line-height: 2em;
   }
 
   .copyright {
     font-size: 50%;
+    line-height: 1.1em;
+    border-top: solid 1px #333;
   }
 }
