@@ -10,7 +10,7 @@
 body{
   width: 75%;
   max-width: 700px;
-  font-family: Georgia, Times, 'Times New Roman',serif;
+  font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman',serif;
   margin: auto;
   background-color: #f0f0f0;
   color: #333;
@@ -32,7 +32,7 @@ h1{
   font-size: 4em;
   margin-bottom: .1em;
   margin-top: 1em;
-  color: #00d8ae;
+  color: #c06;
 }
 
 h2{
@@ -46,7 +46,7 @@ hgroup h2{
 }
 
 header h1{
-  color: #00d8ae;
+  color: #c06;
 }
 
 header h2{
@@ -81,10 +81,18 @@ blockquote p{
 .anchor{
   text-transform: uppercase;
   font-size: .75em;
+  text-align: center;
+  margin: auto;
 }
 
 .leader{
   text-transform: uppercase;
+}
+
+.contact{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1.5em;
 }
 
 /*------------- LINKS ---------------------*/
@@ -131,4 +139,115 @@ img{
   padding: 0;
   max-width: 100%;
   margin-bottom: 2em;
+}
+
+/*--------------- TABLE -------------------*/
+table{
+  margin: auto;
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+caption{
+  margin-bottom: .7em;
+  text-transform: uppercase;
+}
+
+table.head, th{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: left;
+  background: #c06;
+}
+
+th, td{
+  padding: .6em;
+}
+
+table, td{
+  background: rgba(0,0,0,.1);
+  border: 1px solid #fff;
+}
+
+/*---------------- MEDIA QUERIES -----------------*/
+
+/*---------------- TABLET ------------------------*/
+
+@media (max-width: 50em) {
+  body {
+    background-color: bisque;
+    width: 85%;
+  }
+
+  article {
+    width: 95%;
+    padding: 0.5em;
+  }
+
+  nav ul li {
+    margin: 15px;
+    font-size: 1.2em;
+  }
+}
+
+
+/*---------------- SMARTPHONE --------------------*/
+
+@media (max-width: 35em) {
+  body {
+    background-color: aqua;
+    margin: auto;
+    width: 90%;
+    font-size: 115%;
+  }
+
+  table {
+    font-size: 90%;
+  }
+
+  article {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.3;
+  }
+
+  blockquote {
+    font-size: 1.25em;
+    padding: 0;
+    line-height: 1.6em;
+  }
+
+  hgroup h2 {
+    font-size:1.2em;
+  }
+
+  nav {
+    font-size: 100%;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    line-height: 1em;
+  }
+
+  table {
+    font-size: 60%;
+  }
+
+  .contact {
+    font-size: 90%;
+  }
+
+  .copyright {
+    font-size: 50%;
+  }
 }
